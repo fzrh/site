@@ -1,24 +1,50 @@
-body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
+@import 'https://fonts.googleapis.com/css?family=BioRhyme|Poppins';
+@charset 'utf-8';
+
+/* ============================================================ */
+/* Base */
+/* ============================================================ */
+
+html {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+body,
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  color: #555555;
+  text-align: justify;
+}
+
+/* ============================================================ */
+/* Links */
+/* ============================================================ */
+
+a, a:active, a:visited {
+  color: #d44950;
+}
+
+a:hover {
+  color: #555555;
+  text-decoration: none;
+}
+
+/* ============================================================ */
+/* Sections */
+/* ============================================================ */
+
+.logo-header {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'BioRhyme', serif;
+}
+
+.navi-links {
   text-align: center;
 }
 
-a {
-  color: rgba(#000, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
-}
-
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+.content-heading {
+  text-align: center;
 }
