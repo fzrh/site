@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Lato|Poppins';
+@import 'https://fonts.googleapis.com/css?family=Josefin+Sans';
 @charset 'utf-8';
 
 /* ============================================================ */
@@ -12,13 +12,13 @@ html {
 
 body,
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   color: #555555;
   text-align: justify;
 }
 
 body {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* ============================================================ */
@@ -41,10 +41,12 @@ a:hover {
 
 .logo-header {
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  font-family: 'Lato', sans-serif;
-  font-size: 59px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 55px;
+  color: #333333;
+  font-weight: bold;
 }
 
 .navi-links {
@@ -53,7 +55,8 @@ a:hover {
 
 .content-heading {
   text-align: center;
-  padding-top: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .footer {
