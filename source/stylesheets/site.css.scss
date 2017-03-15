@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=BioRhyme|Poppins';
+@import 'https://fonts.googleapis.com/css?family=Lato|Poppins';
 @charset 'utf-8';
 
 /* ============================================================ */
@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
   color: #555555;
   text-align: justify;
+}
+
+body {
+  font-size: 18px;
 }
 
 /* ============================================================ */
@@ -36,9 +40,10 @@ a:hover {
 
 .logo-header {
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-family: 'BioRhyme', serif;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: 'Lato', sans-serif;
+  font-size: 59px;
 }
 
 .navi-links {
@@ -47,4 +52,19 @@ a:hover {
 
 .content-heading {
   text-align: center;
+  padding-top: 25px;
+}
+
+.footer {
+  font-size: 13px;
+  text-align: center;
+}
+
+.extra-large {
+  font-size: 99px;
+}
+
+.link-gap {
+  padding-left: 15px;
+  padding-right: 15px;
 }
