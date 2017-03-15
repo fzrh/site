@@ -1,8 +1,7 @@
-set :css_dir, 'stylesheets'
-set :js_dir, 'javascripts'
-set :images_dir, 'images'
+set :css_dir, 'assets/stylesheets'
+set :js_dir, 'assets/javascripts'
+set :images_dir, 'assets/images'
 set :partials_dir, 'partials'
-set :font_dir, 'fonts'
 set :relative_links, true
 
 page '/*.xml', layout: false
