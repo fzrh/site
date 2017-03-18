@@ -11,7 +11,7 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 configure :development do
-  activate :livereload
+  activate :livereload, no_swf: true
   activate :directory_indexes
 end
 
