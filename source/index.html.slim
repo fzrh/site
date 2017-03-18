@@ -1,9 +1,14 @@
-h1.logo-header.extra-large FR
+= link_to 'index' do
+  h1.logo-header.extra-large FR
 
 .navi-links
   ul.list-inline
     li.list-inline-item.link-gap
       = link_to 'about', 'about'
+    li.list-inline-item.link-gap
+      = link_to config.blog_url, target: '_blank' do
+        | blog
+      end
     li.list-inline-item.link-gap
       = link_to 'features', 'features'
     li.list-inline-item.link-gap
