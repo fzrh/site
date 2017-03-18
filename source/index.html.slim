@@ -5,11 +5,8 @@
   ul.list-inline
     li.list-inline-item.link-gap
       = link_to 'about', 'about'
-    li.list-inline-item.link-gap
-      = link_to config.blog_url, target: '_blank' do
-        | blog
-      end
+    = link_to config.blog_url, target: '_blank' do
+      li.list-inline-item.link-gap blog
+    end
     li.list-inline-item.link-gap
       = link_to 'features', 'features'
-    li.list-inline-item.link-gap
-      = link_to 'contact', 'contact'
